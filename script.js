@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         爆杀网络阴阳人
 // @namespace    http://tampermonkey.net/
-// @version      0.30
+// @version      0.32
 // @description  屏蔽那些阴阳怪气的言论！还世界一个清净。
 // @author       K@M0me
 // @match        http://*/*
