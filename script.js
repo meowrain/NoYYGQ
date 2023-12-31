@@ -30,7 +30,7 @@ fetch("https://raw.githubusercontent.com/meowrain/NoYYGQ/main/block.json")
     console.log(err);
   });
  
-const siteList = ['.j_th_tit','.d_post_content j_d_post_content','.t_con', '.p_content', '.lzl_cnt', '.CommentRichText', '.RichContent-inner', '.text', '.text-con', '.WB_text W_f14', '.WB_text', '.reply-content'];
+const siteList = ['.j_th_tit','.d_post_content j_d_post_content','.threadlist_abs threadlist_abs_onlyline','.t_con', '.p_content', '.lzl_cnt', '.CommentRichText', '.RichContent-inner', '.text', '.text-con', '.WB_text W_f14', '.WB_text', '.reply-content'];
 (function () {
   function debounce(fn, wait) {
     const timeout = null;
