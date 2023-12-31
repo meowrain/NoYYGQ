@@ -29,15 +29,8 @@ fetch("https://raw.githubusercontent.com/meowrain/NoYYGQ/main/block.json")
   }).catch((err) => {
     console.log(err);
   });
-// const blackList = [
-//     '一开口就知道', '那你是真的', '孝子', '幕刃', '女拳', '蝻性', '男拳', '原批', 'op', '绷不住了', '欧泡', '蚌埠住了',
-//     '急了', 'lkd', '郭楠', '蝈蝻', '赢了', 'mxz', '猿神', '利刃','不会吧不会吧','啊对对对',
-//     '这是傻逼', '圣母', '米猴', '烂裤裆', '孤儿', 'mzr', '(你.*?品)', '不会有人真的', '真是有够', '那您可真', '那您是真的',
-//     '宁可真', '宁真', '你爹', '您爹', '你马', '您马', '肖战', '吴签', '割割', '😅', '[女母]狗', '[他她它]急了', '[男女]👊', '男狗', '寄吧谁',
-//     'jb谁', '几把谁', '鸡巴谁', '[他她]只是失去了', '[他她]们只是失去了', '差不多得了','顶真','丁真'
-// ];
  
-const siteList = ['.t_con', '.p_content', '.lzl_cnt', '.CommentRichText', '.RichContent-inner', '.text', '.text-con', '.WB_text W_f14', '.WB_text', '.reply-content'];
+const siteList = ['.j_th_tit','.d_post_content j_d_post_content','.t_con', '.p_content', '.lzl_cnt', '.CommentRichText', '.RichContent-inner', '.text', '.text-con', '.WB_text W_f14', '.WB_text', '.reply-content'];
 (function () {
   function debounce(fn, wait) {
     const timeout = null;
